@@ -13,6 +13,7 @@ public class GameCell {
         marked = false;
     }
 
+
     public boolean isBomb() {
         return bomb;
     }
