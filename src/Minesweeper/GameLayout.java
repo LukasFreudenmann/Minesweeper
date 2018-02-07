@@ -243,14 +243,12 @@ public class GameLayout {
         difficulty.getItems().addAll(easy, medium, hard, custom);
         menuBar.getMenus().addAll(difficulty);
 
-
         // Menu size
         Pane space = new Pane();
         space.setMinHeight(27);
         space.setMinWidth(45);
         space.setMaxHeight(27);
         space.setMaxWidth(45);
-
 
         HBox center = new HBox();
         center.getChildren().addAll(menuBar, restart, space);
@@ -286,13 +284,10 @@ public class GameLayout {
         OneSecond.play();
         new Timer().schedule(
                 new TimerTask() {
-
                     @Override
                     public void run() {
-
                     }
                 }, 0, 1000);
-
     }
 
     // reset timer
