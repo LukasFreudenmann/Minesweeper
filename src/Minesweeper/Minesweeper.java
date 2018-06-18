@@ -9,7 +9,6 @@ import javafx.scene.image.Image;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-
 /**
  * This program represents the game "Minesweeper"
  * @author  Lukas Freudenmann
@@ -17,11 +16,13 @@ import javafx.stage.Stage;
  */
 
 public class Minesweeper extends Application {
+
     private static Stage window;
 
     public static void main(String[] args) {
-        launch(args);
-    }
+            launch(args);
+        }
+
 
 
     @Override
